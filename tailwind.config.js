@@ -881,11 +881,11 @@ module.exports = {
   plugins: [],
 
   corePlugins: {
-    fontFamily: false,
-    letterSpacing: false,
-    backgroundPosition: false,
-    backgroundRepeat: false,
-    listStyleType: false
+    // fontFamily: false,
+    // letterSpacing: false,
+    // backgroundPosition: false,
+    // backgroundRepeat: false,
+    // listStyleType: false
   }
 };
 /* eslint-enable */

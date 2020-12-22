@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen">
-    <navbar></navbar>
+    <navbar />
     <Nuxt />
   </div>
 </template>

@@ -72,6 +72,11 @@ export default {
       }
     ]
   ],
+  robots: {
+    /* module options */
+    UserAgent: "Googlebot",
+    Disallow: () => "/users" // accepts function
+  },
   svgLoader: {
     svgoConfig: {
       plugins: [
@@ -79,11 +84,7 @@ export default {
       ]
     }
   },
-  robots: {
-    /* module options */
-    UserAgent: "Googlebot",
-    Disallow: () => "/users" // accepts function
-  },
+
   googleFonts: {
     // display: 'swap',
     families: {
