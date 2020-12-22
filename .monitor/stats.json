@@ -1,0 +1,1388 @@
+[
+  {
+    "timeStamp": 1608668017288,
+    "time": 17190,
+    "hash": "93ecdbb779af9429080b",
+    "errors": [],
+    "size": 543136,
+    "assets": [
+      {
+        "name": "../server/client.manifest.json",
+        "chunks": [],
+        "size": 10254
+      },
+      {
+        "name": "../server/index.spa.html",
+        "chunks": [],
+        "size": 313
+      },
+      {
+        "name": "../server/index.ssr.html",
+        "chunks": [],
+        "size": 149
+      },
+      {
+        "name": "0b0cd9e.js",
+        "chunks": [
+          0
+        ],
+        "size": 68946,
+        "minified": true
+      },
+      {
+        "name": "0b0cd9e.js.br",
+        "chunks": [],
+        "size": 16866
+      },
+      {
+        "name": "0b0cd9e.js.gz",
+        "chunks": [],
+        "size": 19265
+      },
+      {
+        "name": "2626c8a.js",
+        "chunks": [
+          3
+        ],
+        "size": 2360,
+        "minified": true
+      },
+      {
+        "name": "53fa781.js",
+        "chunks": [
+          1
+        ],
+        "size": 216091,
+        "minified": true
+      },
+      {
+        "name": "53fa781.js.br",
+        "chunks": [],
+        "size": 63717
+      },
+      {
+        "name": "53fa781.js.gz",
+        "chunks": [],
+        "size": 73320
+      },
+      {
+        "name": "688cd48.js",
+        "chunks": [
+          4
+        ],
+        "size": 42911,
+        "minified": true
+      },
+      {
+        "name": "688cd48.js.br",
+        "chunks": [],
+        "size": 11546
+      },
+      {
+        "name": "688cd48.js.gz",
+        "chunks": [],
+        "size": 13141
+      },
+      {
+        "name": "LICENSES",
+        "chunks": [],
+        "size": 774
+      },
+      {
+        "name": "b0b88b0.js",
+        "chunks": [
+          5
+        ],
+        "size": 288,
+        "minified": true
+      },
+      {
+        "name": "c601f66.js",
+        "chunks": [
+          2
+        ],
+        "size": 3195,
+        "minified": true
+      }
+    ],
+    "chunks": [
+      {
+        "size": 179800,
+        "files": [
+          "0b0cd9e.js"
+        ],
+        "modules": [
+          {
+            "name": "./.nuxt/nuxt-i18n/options.js",
+            "size": 1778,
+            "id": 0
+          },
+          {
+            "name": "./.nuxt/utils.js",
+            "size": 25357,
+            "id": 1
+          },
+          {
+            "name": "./.nuxt/index.js + 25 modules",
+            "size": 103713,
+            "id": 26
+          },
+          {
+            "name": "./.nuxt/middleware.js",
+            "size": 47,
+            "id": 58
+          },
+          {
+            "name": "./.nuxt/components/nuxt-link.client.js",
+            "size": 5184,
+            "id": 83
+          },
+          {
+            "name": "./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./.nuxt/components/nuxt-error.vue?vue&type=style&index=0&lang=css&",
+            "size": 779,
+            "id": 151
+          },
+          {
+            "name": "./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./.nuxt/components/nuxt-loading.vue?vue&type=style&index=0&lang=css&",
+            "size": 781,
+            "id": 152
+          },
+          {
+            "name": "./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=style&index=0&lang=css&",
+            "size": 758,
+            "id": 153
+          },
+          {
+            "name": "./.nuxt/mixins/fetch.client.js",
+            "size": 3530,
+            "id": 167
+          },
+          {
+            "name": "multi ./node_modules/@nuxt/components/lib/installComponents.js ./.nuxt/client.js",
+            "size": 40,
+            "id": 170
+          },
+          {
+            "name": "./.nuxt/client.js",
+            "size": 32207,
+            "id": 172
+          },
+          {
+            "name": "./.nuxt/components/nuxt-error.vue?vue&type=style&index=0&lang=css&",
+            "size": 440,
+            "id": 205
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./.nuxt/components/nuxt-error.vue?vue&type=style&index=0&lang=css&",
+            "size": 926,
+            "id": 206
+          },
+          {
+            "name": "./.nuxt/components/nuxt-loading.vue?vue&type=style&index=0&lang=css&",
+            "size": 442,
+            "id": 207
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./.nuxt/components/nuxt-loading.vue?vue&type=style&index=0&lang=css&",
+            "size": 486,
+            "id": 208
+          },
+          {
+            "name": "./layouts/default.vue?vue&type=style&index=0&lang=css&",
+            "size": 419,
+            "id": 211
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=style&index=0&lang=css&",
+            "size": 978,
+            "id": 212
+          },
+          {
+            "name": "./.nuxt/nuxt-i18n/utils.js",
+            "size": 1935,
+            "id": 235
+          }
+        ]
+      },
+      {
+        "size": 677636,
+        "files": [
+          "53fa781.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue/dist/vue.runtime.esm.js",
+            "size": 227323,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/core-js/internals/export.js",
+            "size": 2519,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
+            "size": 787,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 3 modules",
+            "size": 1377,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/core-js/internals/global.js",
+            "size": 501,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/core-js/internals/well-known-symbol.js",
+            "size": 752,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/core-js/internals/fails.js",
+            "size": 108,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/core-js/internals/an-object.js",
+            "size": 180,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/core-js/internals/is-object.js",
+            "size": 110,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.object.to-string.js",
+            "size": 387,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
+            "size": 269,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/core-js/internals/descriptors.js",
+            "size": 213,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/core-js/internals/has.js",
+            "size": 121,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/core-js/internals/to-length.js",
+            "size": 304,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/axios/lib/utils.js",
+            "size": 8947,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/core-js/internals/redefine.js",
+            "size": 1589,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/core-js/internals/require-object-coercible.js",
+            "size": 228,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-define-property.js",
+            "size": 805,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/core-js/internals/array-method-uses-to-length.js",
+            "size": 894,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/@babel/runtime/helpers/esm/typeof.js",
+            "size": 433,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/core-js/internals/create-non-enumerable-property.js",
+            "size": 438,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/core-js/internals/to-object.js",
+            "size": 254,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.regexp.exec.js",
+            "size": 186,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/regenerator-runtime/runtime.js",
+            "size": 24124,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/core-js/internals/internal-state.js",
+            "size": 1682,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/core-js/internals/is-pure.js",
+            "size": 24,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.map.js",
+            "size": 775,
+            "id": 29
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 472,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/core-js/internals/to-indexed-object.js",
+            "size": 285,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/core-js/internals/get-built-in.js",
+            "size": 434,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.concat.js",
+            "size": 2401,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/core-js/internals/classof-raw.js",
+            "size": 106,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/core-js/internals/to-integer.js",
+            "size": 256,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/core-js/internals/array-iteration.js",
+            "size": 2843,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/core-js/internals/function-bind-context.js",
+            "size": 599,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/core-js/internals/array-method-is-strict.js",
+            "size": 321,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.includes.js",
+            "size": 766,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.string.includes.js",
+            "size": 667,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.string.iterator.js",
+            "size": 1052,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/core-js/internals/set-to-string-tag.js",
+            "size": 425,
+            "id": 42
+          },
+          {
+            "name": "./node_modules/core-js/modules/web.dom-collections.iterator.js",
+            "size": 1565,
+            "id": 43
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/runtime/componentNormalizer.js",
+            "size": 2771,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-get-own-property-descriptor.js",
+            "size": 1001,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/core-js/internals/create-property-descriptor.js",
+            "size": 173,
+            "id": 47
+          },
+          {
+            "name": "./node_modules/core-js/internals/indexed-object.js",
+            "size": 503,
+            "id": 48
+          },
+          {
+            "name": "./node_modules/core-js/internals/array-method-has-species-support.js",
+            "size": 673,
+            "id": 49
+          },
+          {
+            "name": "./node_modules/core-js/internals/a-function.js",
+            "size": 140,
+            "id": 50
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.for-each.js",
+            "size": 300,
+            "id": 51
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.function.name.js",
+            "size": 680,
+            "id": 52
+          },
+          {
+            "name": "./node_modules/core-js/internals/iterators.js",
+            "size": 21,
+            "id": 53
+          },
+          {
+            "name": "./node_modules/core-js/modules/web.dom-collections.for-each.js",
+            "size": 691,
+            "id": 54
+          },
+          {
+            "name": "./node_modules/core-js/internals/an-instance.js",
+            "size": 185,
+            "id": 55
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.string.replace.js",
+            "size": 5400,
+            "id": 56
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.string.split.js",
+            "size": 5463,
+            "id": 57
+          },
+          {
+            "name": "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js",
+            "size": 212,
+            "id": 59
+          },
+          {
+            "name": "./node_modules/vue-meta/dist/vue-meta.esm.browser.js",
+            "size": 50170,
+            "id": 60
+          },
+          {
+            "name": "./node_modules/@nuxt/ufo/dist/index.mjs + 2 modules",
+            "size": 19467,
+            "id": 61
+          },
+          {
+            "name": "./node_modules/vue-router/dist/vue-router.esm.js",
+            "size": 79900,
+            "id": 62
+          },
+          {
+            "name": "./node_modules/axios/index.js",
+            "size": 40,
+            "id": 63
+          },
+          {
+            "name": "./node_modules/core-js/internals/hidden-keys.js",
+            "size": 21,
+            "id": 66
+          },
+          {
+            "name": "./node_modules/core-js/internals/is-forced.js",
+            "size": 573,
+            "id": 67
+          },
+          {
+            "name": "./node_modules/core-js/internals/create-property.js",
+            "size": 465,
+            "id": 68
+          },
+          {
+            "name": "./node_modules/core-js/internals/engine-v8-version.js",
+            "size": 528,
+            "id": 69
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.filter.js",
+            "size": 805,
+            "id": 70
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-create.js",
+            "size": 2882,
+            "id": 71
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-keys.js",
+            "size": 303,
+            "id": 72
+          },
+          {
+            "name": "./node_modules/core-js/internals/regexp-exec.js",
+            "size": 2816,
+            "id": 73
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.string.match.js",
+            "size": 1649,
+            "id": 74
+          },
+          {
+            "name": "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js",
+            "size": 4663,
+            "id": 75
+          },
+          {
+            "name": "./node_modules/core-js/internals/regexp-exec-abstract.js",
+            "size": 598,
+            "id": 76
+          },
+          {
+            "name": "./node_modules/core-js/modules/web.timers.js",
+            "size": 1142,
+            "id": 77
+          },
+          {
+            "name": "./node_modules/core-js/internals/get-iterator-method.js",
+            "size": 343,
+            "id": 78
+          },
+          {
+            "name": "./node_modules/core-js/internals/engine-is-node.js",
+            "size": 152,
+            "id": 79
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.regexp.to-string.js",
+            "size": 985,
+            "id": 80
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.find.js",
+            "size": 874,
+            "id": 81
+          },
+          {
+            "name": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+            "size": 517,
+            "id": 82
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-property-is-enumerable.js",
+            "size": 590,
+            "id": 84
+          },
+          {
+            "name": "./node_modules/core-js/internals/to-primitive.js",
+            "size": 779,
+            "id": 85
+          },
+          {
+            "name": "./node_modules/core-js/internals/document-create-element.js",
+            "size": 340,
+            "id": 86
+          },
+          {
+            "name": "./node_modules/core-js/internals/set-global.js",
+            "size": 304,
+            "id": 87
+          },
+          {
+            "name": "./node_modules/core-js/internals/inspect-source.js",
+            "size": 338,
+            "id": 88
+          },
+          {
+            "name": "./node_modules/core-js/internals/shared-store.js",
+            "size": 211,
+            "id": 89
+          },
+          {
+            "name": "./node_modules/core-js/internals/shared-key.js",
+            "size": 196,
+            "id": 90
+          },
+          {
+            "name": "./node_modules/core-js/internals/uid.js",
+            "size": 177,
+            "id": 91
+          },
+          {
+            "name": "./node_modules/core-js/internals/array-includes.js",
+            "size": 1283,
+            "id": 92
+          },
+          {
+            "name": "./node_modules/core-js/internals/to-absolute-index.js",
+            "size": 439,
+            "id": 93
+          },
+          {
+            "name": "./node_modules/core-js/internals/enum-bug-keys.js",
+            "size": 178,
+            "id": 94
+          },
+          {
+            "name": "./node_modules/core-js/internals/is-array.js",
+            "size": 226,
+            "id": 95
+          },
+          {
+            "name": "./node_modules/core-js/internals/array-species-create.js",
+            "size": 721,
+            "id": 96
+          },
+          {
+            "name": "./node_modules/core-js/internals/engine-user-agent.js",
+            "size": 117,
+            "id": 97
+          },
+          {
+            "name": "./node_modules/core-js/internals/add-to-unscopables.js",
+            "size": 673,
+            "id": 98
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.object.keys.js",
+            "size": 469,
+            "id": 99
+          },
+          {
+            "name": "./node_modules/core-js/internals/to-string-tag-support.js",
+            "size": 210,
+            "id": 100
+          },
+          {
+            "name": "./node_modules/core-js/internals/classof.js",
+            "size": 1009,
+            "id": 101
+          },
+          {
+            "name": "./node_modules/core-js/internals/regexp-flags.js",
+            "size": 492,
+            "id": 102
+          },
+          {
+            "name": "./node_modules/core-js/internals/not-a-regexp.js",
+            "size": 194,
+            "id": 103
+          },
+          {
+            "name": "./node_modules/core-js/internals/is-regexp.js",
+            "size": 443,
+            "id": 104
+          },
+          {
+            "name": "./node_modules/core-js/internals/correct-is-regexp-logic.js",
+            "size": 366,
+            "id": 105
+          },
+          {
+            "name": "./node_modules/core-js/internals/string-multibyte.js",
+            "size": 1150,
+            "id": 106
+          },
+          {
+            "name": "./node_modules/core-js/internals/define-iterator.js",
+            "size": 4042,
+            "id": 107
+          },
+          {
+            "name": "./node_modules/core-js/internals/advance-string-index.js",
+            "size": 287,
+            "id": 108
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.iterator.js",
+            "size": 2216,
+            "id": 109
+          },
+          {
+            "name": "./node_modules/core-js/internals/redefine-all.js",
+            "size": 186,
+            "id": 110
+          },
+          {
+            "name": "./node_modules/core-js/internals/set-species.js",
+            "size": 638,
+            "id": 111
+          },
+          {
+            "name": "./node_modules/core-js/internals/iterate.js",
+            "size": 2057,
+            "id": 112
+          },
+          {
+            "name": "./node_modules/core-js/internals/species-constructor.js",
+            "size": 516,
+            "id": 113
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.join.js",
+            "size": 686,
+            "id": 114
+          },
+          {
+            "name": "./node_modules/js-cookie/src/js.cookie.js",
+            "size": 3883,
+            "id": 116
+          },
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 118
+          },
+          {
+            "name": "./node_modules/core-js/internals/ie8-dom-define.js",
+            "size": 378,
+            "id": 119
+          },
+          {
+            "name": "./node_modules/core-js/internals/shared.js",
+            "size": 352,
+            "id": 120
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-get-own-property-names.js",
+            "size": 418,
+            "id": 121
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-keys-internal.js",
+            "size": 582,
+            "id": 122
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-get-own-property-symbols.js",
+            "size": 42,
+            "id": 123
+          },
+          {
+            "name": "./node_modules/core-js/internals/native-symbol.js",
+            "size": 243,
+            "id": 124
+          },
+          {
+            "name": "./node_modules/core-js/internals/array-for-each.js",
+            "size": 664,
+            "id": 125
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-define-properties.js",
+            "size": 647,
+            "id": 126
+          },
+          {
+            "name": "./node_modules/core-js/internals/html.js",
+            "size": 116,
+            "id": 127
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.some.js",
+            "size": 693,
+            "id": 128
+          },
+          {
+            "name": "./node_modules/core-js/internals/regexp-sticky-helpers.js",
+            "size": 604,
+            "id": 129
+          },
+          {
+            "name": "./node_modules/core-js/internals/create-iterator-constructor.js",
+            "size": 746,
+            "id": 130
+          },
+          {
+            "name": "./node_modules/core-js/internals/iterators-core.js",
+            "size": 1351,
+            "id": 131
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-get-prototype-of.js",
+            "size": 713,
+            "id": 132
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-set-prototype-of.js",
+            "size": 859,
+            "id": 133
+          },
+          {
+            "name": "./node_modules/core-js/internals/dom-iterables.js",
+            "size": 753,
+            "id": 134
+          },
+          {
+            "name": "./node_modules/core-js/internals/native-promise-constructor.js",
+            "size": 79,
+            "id": 135
+          },
+          {
+            "name": "./node_modules/core-js/internals/is-array-iterator-method.js",
+            "size": 361,
+            "id": 136
+          },
+          {
+            "name": "./node_modules/core-js/internals/iterator-close.js",
+            "size": 230,
+            "id": 137
+          },
+          {
+            "name": "./node_modules/core-js/internals/check-correctness-of-iteration.js",
+            "size": 936,
+            "id": 138
+          },
+          {
+            "name": "./node_modules/core-js/internals/task.js",
+            "size": 2968,
+            "id": 139
+          },
+          {
+            "name": "./node_modules/core-js/internals/engine-is-ios.js",
+            "size": 129,
+            "id": 140
+          },
+          {
+            "name": "./node_modules/core-js/internals/promise-resolve.js",
+            "size": 427,
+            "id": 141
+          },
+          {
+            "name": "./node_modules/core-js/internals/new-promise-capability.js",
+            "size": 522,
+            "id": 142
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-assign.js",
+            "size": 2074,
+            "id": 143
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.slice.js",
+            "size": 2184,
+            "id": 144
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.object.entries.js",
+            "size": 289,
+            "id": 145
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.regexp.constructor.js",
+            "size": 3148,
+            "id": 146
+          },
+          {
+            "name": "./node_modules/core-js/internals/inherit-if-required.js",
+            "size": 693,
+            "id": 147
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.string.search.js",
+            "size": 1437,
+            "id": 148
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.string.starts-with.js",
+            "size": 1470,
+            "id": 149
+          },
+          {
+            "name": "./node_modules/core-js/internals/native-url.js",
+            "size": 1152,
+            "id": 150
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/bind.js",
+            "size": 256,
+            "id": 154
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/buildURL.js",
+            "size": 1644,
+            "id": 155
+          },
+          {
+            "name": "./node_modules/axios/lib/cancel/isCancel.js",
+            "size": 102,
+            "id": 156
+          },
+          {
+            "name": "./node_modules/axios/lib/defaults.js",
+            "size": 2563,
+            "id": 157
+          },
+          {
+            "name": "./node_modules/axios/lib/adapters/xhr.js",
+            "size": 5869,
+            "id": 158
+          },
+          {
+            "name": "./node_modules/axios/lib/core/createError.js",
+            "size": 625,
+            "id": 159
+          },
+          {
+            "name": "./node_modules/axios/lib/core/mergeConfig.js",
+            "size": 2895,
+            "id": 160
+          },
+          {
+            "name": "./node_modules/axios/lib/cancel/Cancel.js",
+            "size": 385,
+            "id": 161
+          },
+          {
+            "name": "./node_modules/core-js/internals/internal-metadata.js",
+            "size": 1766,
+            "id": 162
+          },
+          {
+            "name": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js + 3 modules",
+            "size": 1039,
+            "id": 168
+          },
+          {
+            "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js + 1 modules",
+            "size": 1007,
+            "id": 169
+          },
+          {
+            "name": "./node_modules/core-js/internals/native-weak-map.js",
+            "size": 231,
+            "id": 173
+          },
+          {
+            "name": "./node_modules/core-js/internals/copy-constructor-properties.js",
+            "size": 616,
+            "id": 174
+          },
+          {
+            "name": "./node_modules/core-js/internals/own-keys.js",
+            "size": 616,
+            "id": 175
+          },
+          {
+            "name": "./node_modules/core-js/internals/path.js",
+            "size": 71,
+            "id": 176
+          },
+          {
+            "name": "./node_modules/core-js/internals/use-symbol-as-uid.js",
+            "size": 228,
+            "id": 177
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-to-string.js",
+            "size": 378,
+            "id": 178
+          },
+          {
+            "name": "./node_modules/core-js/internals/correct-prototype-getter.js",
+            "size": 208,
+            "id": 179
+          },
+          {
+            "name": "./node_modules/core-js/internals/a-possible-prototype.js",
+            "size": 208,
+            "id": 180
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.promise.js",
+            "size": 13530,
+            "id": 181
+          },
+          {
+            "name": "./node_modules/core-js/internals/microtask.js",
+            "size": 2504,
+            "id": 182
+          },
+          {
+            "name": "./node_modules/core-js/internals/host-report-errors.js",
+            "size": 223,
+            "id": 183
+          },
+          {
+            "name": "./node_modules/core-js/internals/perform.js",
+            "size": 156,
+            "id": 184
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.object.assign.js",
+            "size": 265,
+            "id": 185
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.promise.finally.js",
+            "size": 1565,
+            "id": 186
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.index-of.js",
+            "size": 973,
+            "id": 187
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.reduce.js",
+            "size": 1044,
+            "id": 188
+          },
+          {
+            "name": "./node_modules/core-js/internals/array-reduce.js",
+            "size": 1341,
+            "id": 189
+          },
+          {
+            "name": "./node_modules/core-js/internals/object-to-array.js",
+            "size": 986,
+            "id": 190
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.string.repeat.js",
+            "size": 252,
+            "id": 191
+          },
+          {
+            "name": "./node_modules/core-js/internals/string-repeat.js",
+            "size": 580,
+            "id": 192
+          },
+          {
+            "name": "./node_modules/core-js/internals/same-value.js",
+            "size": 248,
+            "id": 193
+          },
+          {
+            "name": "./node_modules/timers-browserify/main.js",
+            "size": 2022,
+            "id": 194
+          },
+          {
+            "name": "./node_modules/setimmediate/setImmediate.js",
+            "size": 6475,
+            "id": 195
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.splice.js",
+            "size": 2837,
+            "id": 196
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.string.ends-with.js",
+            "size": 1549,
+            "id": 197
+          },
+          {
+            "name": "./node_modules/core-js/modules/web.url.js",
+            "size": 32665,
+            "id": 198
+          },
+          {
+            "name": "./node_modules/core-js/internals/array-from.js",
+            "size": 1843,
+            "id": 199
+          },
+          {
+            "name": "./node_modules/core-js/internals/call-with-safe-iteration-closing.js",
+            "size": 427,
+            "id": 200
+          },
+          {
+            "name": "./node_modules/core-js/internals/string-punycode-to-ascii.js",
+            "size": 5227,
+            "id": 201
+          },
+          {
+            "name": "./node_modules/core-js/modules/web.url-search-params.js",
+            "size": 11877,
+            "id": 202
+          },
+          {
+            "name": "./node_modules/core-js/internals/get-iterator.js",
+            "size": 347,
+            "id": 203
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.array.every.js",
+            "size": 702,
+            "id": 204
+          },
+          {
+            "name": "./node_modules/axios/lib/axios.js",
+            "size": 1503,
+            "id": 213
+          },
+          {
+            "name": "./node_modules/axios/lib/core/Axios.js",
+            "size": 2648,
+            "id": 214
+          },
+          {
+            "name": "./node_modules/axios/lib/core/InterceptorManager.js",
+            "size": 1251,
+            "id": 215
+          },
+          {
+            "name": "./node_modules/axios/lib/core/dispatchRequest.js",
+            "size": 1934,
+            "id": 216
+          },
+          {
+            "name": "./node_modules/axios/lib/core/transformData.js",
+            "size": 550,
+            "id": 217
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+            "size": 357,
+            "id": 218
+          },
+          {
+            "name": "./node_modules/axios/lib/core/settle.js",
+            "size": 706,
+            "id": 219
+          },
+          {
+            "name": "./node_modules/axios/lib/core/enhanceError.js",
+            "size": 1049,
+            "id": 220
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/cookies.js",
+            "size": 1435,
+            "id": 221
+          },
+          {
+            "name": "./node_modules/axios/lib/core/buildFullPath.js",
+            "size": 695,
+            "id": 222
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/isAbsoluteURL.js",
+            "size": 563,
+            "id": 223
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/combineURLs.js",
+            "size": 380,
+            "id": 224
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/parseHeaders.js",
+            "size": 1393,
+            "id": 225
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+            "size": 2305,
+            "id": 226
+          },
+          {
+            "name": "./node_modules/axios/lib/cancel/CancelToken.js",
+            "size": 1240,
+            "id": 227
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/spread.js",
+            "size": 564,
+            "id": 228
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/isAxiosError.js",
+            "size": 343,
+            "id": 229
+          },
+          {
+            "name": "./node_modules/core-js/modules/es.map.js",
+            "size": 374,
+            "id": 230
+          },
+          {
+            "name": "./node_modules/core-js/internals/collection.js",
+            "size": 4307,
+            "id": 231
+          },
+          {
+            "name": "./node_modules/core-js/internals/freezing.js",
+            "size": 146,
+            "id": 232
+          },
+          {
+            "name": "./node_modules/core-js/internals/collection-strong.js",
+            "size": 6750,
+            "id": 233
+          },
+          {
+            "name": "./node_modules/cookie/index.js",
+            "size": 4076,
+            "id": 234
+          }
+        ]
+      },
+      {
+        "size": 7431,
+        "files": [
+          "c601f66.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&",
+            "size": 189,
+            "id": 236
+          },
+          {
+            "name": "./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=style&index=0&lang=css&",
+            "size": 756,
+            "id": 237
+          },
+          {
+            "name": "./node_modules/vue-style-loader??ref--3-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Logo.vue?vue&type=style&index=0&lang=css&",
+            "size": 755,
+            "id": 238
+          },
+          {
+            "name": "./pages/index.vue?vue&type=style&index=0&lang=css&",
+            "size": 417,
+            "id": 239
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=style&index=0&lang=css&",
+            "size": 684,
+            "id": 240
+          },
+          {
+            "name": "./components/Logo.vue?vue&type=style&index=0&lang=css&",
+            "size": 416,
+            "id": 241
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Logo.vue?vue&type=style&index=0&lang=css&",
+            "size": 374,
+            "id": 242
+          },
+          {
+            "name": "./components/Logo.vue + 2 modules",
+            "size": 1578,
+            "id": 243
+          },
+          {
+            "name": "./pages/index.vue + 3 modules",
+            "size": 2262,
+            "id": 245
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "2626c8a.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 90020,
+        "files": [
+          "688cd48.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-no-ssr/dist/vue-no-ssr.common.js",
+            "size": 1204,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/css-loader/dist/runtime/api.js",
+            "size": 2517,
+            "id": 64
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/addStylesClient.js + 1 modules",
+            "size": 6869,
+            "id": 65
+          },
+          {
+            "name": "./node_modules/vue-client-only/dist/vue-client-only.common.js",
+            "size": 1219,
+            "id": 115
+          },
+          {
+            "name": "./node_modules/vue-i18n/dist/vue-i18n.esm.js",
+            "size": 61502,
+            "id": 117
+          },
+          {
+            "name": "./node_modules/unfetch/dist/unfetch.module.js",
+            "size": 949,
+            "id": 163
+          },
+          {
+            "name": "./node_modules/deepmerge/dist/cjs.js",
+            "size": 4035,
+            "id": 164
+          },
+          {
+            "name": "./node_modules/defu/dist/defu.js",
+            "size": 2027,
+            "id": 165
+          },
+          {
+            "name": "./node_modules/klona/full/index.mjs",
+            "size": 1622,
+            "id": 166
+          },
+          {
+            "name": "./node_modules/@nuxt/components/lib/installComponents.js",
+            "size": 1002,
+            "id": 171
+          },
+          {
+            "name": "./node_modules/@nuxtjs/tailwindcss/lib/files/tailwind.css",
+            "size": 538,
+            "id": 209
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--3-oneOf-1-1!./node_modules/postcss-loader/src??ref--3-oneOf-1-2!./node_modules/@nuxtjs/tailwindcss/lib/files/tailwind.css",
+            "size": 6536,
+            "id": 210
+          }
+        ]
+      },
+      {
+        "size": 1395,
+        "files": [
+          "b0b88b0.js"
+        ],
+        "modules": [
+          {
+            "name": "./components/Test.vue + 4 modules",
+            "size": 1395,
+            "id": 244
+          }
+        ]
+      }
+    ]
+  }
+]
