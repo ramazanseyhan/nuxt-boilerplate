@@ -877,9 +877,7 @@ module.exports = {
     |
     */
 
-  plugins: [
-    
-  ],
+  plugins: [],
 
   corePlugins: {
     fontFamily: false,
