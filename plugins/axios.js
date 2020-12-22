@@ -4,13 +4,20 @@ export default function ({ $axios, redirect }) {
   })
 
   $axios.onError((error) => {
+    // eslint-disable-next-line no-undef
     nuxtError({
       message: error.message,
       statusCode: error.response.status
     })
     return Promise.resolve(false)
   })
-  $axios.onResponse((response) => {})
-  $axios.onRequestError((error) => {})
-  $axios.onResponseError((error) => {})
+  $axios.onResponse((response) => {
+    console.log(response)
+  })
+  $axios.onRequestError((error) => {
+    console.log(error)
+  })
+  $axios.onResponseError((error) => {
+    console.log(error)
+  })
 }

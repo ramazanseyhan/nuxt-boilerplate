@@ -25,94 +25,95 @@ module.exports = {
   plugins: ['sort-keys-fix'],
   root: true,
   rules: {
+    // Stylistic Issues
+    'array-bracket-newline': ['error', { minItems: null, multiline: true }],
+
+    'array-bracket-spacing': 'error',
+
+    // ES6
+    'arrow-spacing': 'error',
+
+    'block-spacing': 'error',
+
+    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
+
+    'comma-dangle': 'error',
+
+    'comma-spacing': 'error',
+
+    'comma-style': 'error',
+
+    'computed-property-spacing': 'error',
+
     // Best Practices
     'eqeqeq': 'error',
+
+    'func-call-spacing': 'error',
+
+    'implicit-arrow-linebreak': ['error', 'beside'],
+
+    'indent': ['error', 2],
 
     // Variable
     'init-declarations': 'error',
 
+    'keyword-spacing': 'error',
+
+    'no-confusing-arrow': 'error',
 
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
-    // Stylistic Issues
-'array-bracket-newline': ['error', { minItems: null, multiline: true }],
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
-    
-'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-
+    'no-duplicate-imports': 'error',
 
     'no-invalid-this': 'error',
 
+    'no-lonely-if': 'error',
 
-    'array-bracket-spacing': 'error',
-
+    'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1 }],
 
     'no-return-assign': 'error',
 
+    'no-tabs': 'error',
 
-    'block-spacing': 'error',
+    'no-unneeded-ternary': 'error',
 
     'no-unused-expressions': ['error', { allowTernary: true }],
 
-
-    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
-    'comma-dangle': 'error',
-    'no-useless-concat': 'error',
-    'comma-spacing': 'error',
-    'no-useless-return': 'error',
-    'comma-style': 'error',
-    'computed-property-spacing': 'error',
     'no-use-before-define': 'error',
-    'func-call-spacing': 'error',
-    'implicit-arrow-linebreak': ['error', 'beside'],
-    'indent': ['error', 2],
-    'keyword-spacing': 'error',
-    'no-lonely-if': 'error',
-    'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1 }],
-    'no-tabs': 'error',
-    'no-unneeded-ternary': 'error',
+
+    'no-useless-concat': 'error',
+
+    'no-useless-return': 'error',
+
+    'no-var': 'error',
+
     'no-whitespace-before-property': 'error',
+
     'nonblock-statement-body-position': 'error',
+
     'object-property-newline': [
       'error',
       { allowAllPropertiesOnSameLine: true }
     ],
-    'quote-props': ['error', 'consistent'],
-    // ES6
-'arrow-spacing': 'error',
-    
-'quotes': ['error', 'single'],
 
-    'semi': ['error', 'never'],
-
-    'no-confusing-arrow': 'error',
-
-    'semi-spacing': 'error',
-
-    'no-duplicate-imports': 'error',
-
-    'space-before-blocks': 'error',
-
-    'no-var': 'error',
-
-
-    'space-before-function-paren': 'error',
     'object-shorthand': 'error',
-    'space-in-parens': 'error',
+
     'prefer-const': 'error',
-    'space-infix-ops': 'error',
+
     'prefer-template': 'error',
+
+    'quote-props': ['error', 'consistent'],
+
+    'quotes': ['error', 'single'],
+    'semi': ['error', 'never'],
+    'semi-spacing': 'error',
+    'space-before-blocks': 'error',
+    'space-before-function-paren': 'error',
+    'space-in-parens': 'error',
+    'space-infix-ops': 'error',
     'space-unary-ops': 'error',
-
-
-    'vue/html-closing-bracket-newline': [
-      'error',
-      {
-        multiline: 'always',
-        singleline: 'never'
-      }
-    ],
-
     'vue/attributes-order': [
       'error',
       {
@@ -129,6 +130,14 @@ module.exports = {
           'EVENTS',
           'CONTENT'
         ]
+      }
+    ],
+
+    'vue/html-closing-bracket-newline': [
+      'error',
+      {
+        multiline: 'always',
+        singleline: 'never'
       }
     ],
 
