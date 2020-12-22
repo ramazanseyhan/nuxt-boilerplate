@@ -54,13 +54,13 @@ module.exports = {
       colors: {
         primary: defaultTheme.colors.green
       },
-      spacing: {
-        "128": "32rem",
-        "144": "36rem"
-      },
+
       borderRadius: {
         "4xl": "2rem"
-      }
+      },
+      backgroundImage: theme => ({
+        camping: "url('/_nuxt/assets/bg.png')"
+      })
     },
     /*
       |-----------------------------------------------------------------------------
@@ -511,7 +511,8 @@ module.exports = {
       "48": "12rem",
       "64": "16rem",
       full: "100%",
-      screen: "100vh"
+      screen: "100vh",
+      "screen-9": "95vh"
     },
 
     /*
