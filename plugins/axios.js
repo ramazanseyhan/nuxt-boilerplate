@@ -1,22 +1,20 @@
-export default function ({ $axios, redirect }) {
+export default function ({ $axios, $config, redirect }) {
   // Set baseURL (both client and server)
-  // $axios.setBaseURL('https://randomuser.me/api')
+  // $axios.setBaseURL($config.baseURL)
 
   // Change URL only for client
   // if (process.client) {
-  //   $axios.setBaseURL('https://randomuser.me/api')
+  //   $axios.setBaseURL($config.baseURL)
   // }
 
   // Change URL only for server
   if (process.server) {
-    $axios.setBaseURL('https://randomuser.me/api')
+    $axios.setBaseURL($config.baseURL)
   }
 
   $axios.onRequest((config) => {
     console.log('axios onRequest')
-    // console.log(`Making request to ${config.url}`)
   })
-
   $axios.onError((error) => {
     console.log('axios onError')
     // eslint-disable-next-line no-undef

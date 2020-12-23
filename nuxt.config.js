@@ -1,30 +1,23 @@
 export default {
-  // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
-  // Auto import components (https://go.nuxtjs.dev/config-components)
-  // components: true,
-  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    // https://html-validator.nuxtjs.org
     '@nuxtjs/html-validator',
     '@nuxtjs/dotenv',
     '@nuxtjs/google-fonts',
     '@aceforth/nuxt-optimized-images'
   ],
   components: true,
-  // Global CSS (https://go.nuxtjs.dev/config-css)
   css: ['vuesax/dist/vuesax.css', 'material-icons/iconfont/material-icons.css'],
   generate: {
     routes: ['/']
   },
   googleFonts: {
-    // display: 'swap',
+    display: 'swap',
     families: {
-      // Barlow: {
-      //   wght: [100, 200, 300, 400, 500, 600, 700, 800, 900]
-      // }
+      Barlow: {
+        wght: [100, 200, 300, 400, 500, 600, 700, 800, 900]
+      }
     }
   },
   head: {
@@ -67,8 +60,6 @@ export default {
       }
     }
   },
-  // routerModule: {},
-  // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     ['@nuxtjs/html-minifier', { log: 'once', logHtml: true }],
     'nuxt-precompress',
@@ -96,7 +87,6 @@ export default {
       }
     ]
   ],
-
   nuxtPrecompress: {
     brotli: {
       compressionOptions: { level: 11 },
@@ -106,54 +96,43 @@ export default {
       threshold: 10240
     },
     enabled: true,
-    // build time compression settings
     gzip: {
       compressionOptions: { level: 9 },
-      // should compress to gzip?
       enabled: true,
-      // compression config
-      // https://www.npmjs.com/package/compression-webpack-plugin
       filename: '[path].gz[query]',
       minRatio: 0.8,
-      // middleware will look for this filename
       threshold: 10240
     },
-    // files to compress on build
-    // Serving options
     middleware: {
-      // You can disable middleware if you serve static files using nginx...
       enabled: true,
-      // Enable if you have .gz or .br files in /static/ folder
       enabledStatic: true,
-      // Priority of content-encodings, first matched with request Accept-Encoding will me served
       encodingsPriority: ['br', 'gzip']
     },
-    // Enable in production
     report: false,
-    // set true to turn one console messages during module init
     test: /\.(js|css|html|txt|xml|svg)$/
   },
+
   nuxtValidate: {
     lang: 'en'
   },
   optimizedImages: {
     optimizeImages: true
   },
-  // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     '~/plugins/axios',
     '~/plugins/api',
     '~/plugins/vuesax',
     '~/plugins/custom-plug'
   ],
+  publicRuntimeConfig: {
+    baseURL: 'https://randomuser.me/api' || 'https://ramazanseyhan.com.tr/api/v1'
+  },
 
   robots: {
     Disallow: () => '/users',
-    /* module options */
-    UserAgent: 'Googlebot' // accepts function
+    UserAgent: 'Googlebot'
   },
   router: {
-    // customer router for nuxt
     extendRoutes (routes, resolve) {
       routes.push({
         component: resolve(__dirname, 'components/Test.vue'),
