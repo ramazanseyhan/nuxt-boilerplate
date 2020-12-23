@@ -1,6 +1,6 @@
 export default function ({ redirect, store }) {
   // TODO Get user and check auth state.
-  console.log('Auth middleware')
+  console.log('middleware auth')
   const user = Math.random()
   const isAuthenticated = user > 0.5
   if (!isAuthenticated) {

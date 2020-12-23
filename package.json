@@ -25,7 +25,8 @@
     "nuxt-precompress": "^0.5.2",
     "nuxt-svg-loader": "^1.2.0",
     "vue-lazy-hydration": "^2.0.0-beta.4",
-    "vuesax": "^3.12.2"
+    "vuesax": "^3.12.2",
+    "nuxt-validate": "lewyuburi/nuxt-validate"
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.3.0",

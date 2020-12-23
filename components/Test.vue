@@ -1,4 +1,4 @@
-<template>
+<template lang="html">
   <vs-list>
     <vs-list-item title="One text" />
     <vs-list-item title="Another text" subtitle="A little text" />

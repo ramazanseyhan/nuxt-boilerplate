@@ -8,6 +8,7 @@ module.exports = {
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
     '^vue$': 'vue/dist/vue.common.js',
+    // eslint-disable-next-line sort-keys
     '^~/(.*)$': '<rootDir>/$1'
   },
   transform: {

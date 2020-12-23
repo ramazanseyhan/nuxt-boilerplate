@@ -1,5 +1,4 @@
 export default {
-  axios: {},
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -23,12 +22,11 @@ export default {
   googleFonts: {
     // display: 'swap',
     families: {
-      Barlow: {
-        wght: [100, 200, 300, 400, 500, 600, 700, 800, 900]
-      }
+      // Barlow: {
+      //   wght: [100, 200, 300, 400, 500, 600, 700, 800, 900]
+      // }
     }
   },
-  // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     link: [{ href: '/favicon.ico', rel: 'icon', type: 'image/x-icon' }],
     meta: [
@@ -36,7 +34,7 @@ export default {
       { content: 'width=device-width, initial-scale=1', name: 'viewport' },
       { content: '', hid: 'description', name: 'description' }
     ],
-    title: 'nuxt-boilerpalte'
+    title: 'NUXT SSR APP'
   },
   htmlValidator: {
     options: {
@@ -59,18 +57,12 @@ export default {
   },
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'fr', 'es'],
+    locales: ['en'],
     vueI18n: {
       fallbackLocale: 'en',
       messages: {
         en: {
           welcome: 'Welcome'
-        },
-        es: {
-          welcome: 'Bienvenido'
-        },
-        fr: {
-          welcome: 'Bienvenue'
         }
       }
     }
@@ -85,11 +77,11 @@ export default {
     '@nuxtjs/webpackmonitor',
     '@nuxtjs/robots',
     'nuxt-svg-loader',
+    'nuxt-validate',
     [
       'nuxt-lazy-load',
       {
         appendClass: 'lazyLoad',
-
         audios: true,
         defaultImage: '/images/default-image.jpg',
         directiveOnly: false,
@@ -141,30 +133,25 @@ export default {
     // set true to turn one console messages during module init
     test: /\.(js|css|html|txt|xml|svg)$/
   },
+  nuxtValidate: {
+    lang: 'en'
+  },
   optimizedImages: {
     optimizeImages: true
   },
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['~/plugins/axios', '~/plugins/api', '~/plugins/vuesax'],
-
-  privateRuntimeConfig: {
-    axios: {
-      baseURL: process.env.BASE_URL
-    }
-  },
-
-  publicRuntimeConfig: {
-    axios: {
-      browserBaseURL: process.env.BROWSER_BASE_URL
-    }
-  },
+  plugins: [
+    '~/plugins/axios',
+    '~/plugins/api',
+    '~/plugins/vuesax',
+    '~/plugins/custom-plug'
+  ],
 
   robots: {
     Disallow: () => '/users',
     /* module options */
     UserAgent: 'Googlebot' // accepts function
   },
-
   router: {
     // customer router for nuxt
     extendRoutes (routes, resolve) {
@@ -173,12 +160,12 @@ export default {
         name: 'custom',
         path: '/tester'
       })
-    }
+    },
+    middleware: 'always'
   },
   svgLoader: {
     svgoConfig: {
-      plugins: [{ prefixIds: false } // Disables prefixing for SVG IDs
-      ]
+      plugins: [{ prefixIds: false }]
     }
   }
 }
