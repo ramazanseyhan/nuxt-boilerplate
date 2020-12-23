@@ -1,9 +1,16 @@
 <template lang="html">
   <vs-row>
-    <vs-col class="my-5">
-      {{ getUser }}
-    </vs-col>
-    <vs-col>{{ getToken }}</vs-col>
+    <vs-list v-if="getUser" class="p-2">
+      <vs-list-header title="Current User Information" color="success" />
+      <vs-list-item title="First Name" :subtitle="getUser.name.first" />
+      <vs-list-item title="Last Name" :subtitle="getUser.name.last" />
+      <vs-list-item
+        title="Timezone"
+        :subtitle="getUser.location.timezone.description"
+      />
+      <vs-list-item title="Age" :subtitle="getUser.dob.age" />
+      <vs-list-item title="Date" :subtitle="getUser.registered.date" />
+    </vs-list>
   </vs-row>
 </template>
 
